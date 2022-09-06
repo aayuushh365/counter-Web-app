@@ -12,7 +12,7 @@ btns.forEach(function (btn) {
   else if(styles.contains('increase')){
    count++;
   }
-  else if(styles.contains('reset')){
+   else if(styles.contains('reset')){
    count = 0;
   }
   if(count > 0){
